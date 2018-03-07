@@ -39,13 +39,13 @@ mvn clean install -Pmysql
 Running the application
 ------------------------------
 
-For PostgreSQL use following command to build the project:
-
 For H2 use following command to build the project:
 
 ```
 java -jar target/jbpm-spring-boot-sample-basic-7.7.0-SNAPSHOT.jar evaluation:evaluation:1.0.0-SNAPSHOT
 ```
+
+For PostgreSQL use following command to build the project:
 
 ```
 java -Dspring.profiles.active=postgres -jar target/jbpm-spring-boot-sample-basic-7.7.0-SNAPSHOT.jar evaluation:evaluation:1.0.0-SNAPSHOT
